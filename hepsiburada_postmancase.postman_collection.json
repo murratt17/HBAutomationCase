@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "0f06fb46-18a3-4390-b0df-90ac94f3abc1",
+		"name": "hepsiburada_postmancase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://generator.swagger.io/api/swagger.json",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => {",
+							"  pm.expect(pm.response.code).to.eql(200);",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://generator.swagger.io/api/swagger.json"
+			},
+			"response": []
+		}
+	]
+}
